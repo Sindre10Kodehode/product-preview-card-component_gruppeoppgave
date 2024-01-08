@@ -1,14 +1,15 @@
-
-@media screen and (max-width=375px) {
-    .desktop_image {
-        display: none;
-    }
-
+@media screen and (max-width: 375px) {
+  .desktop_image {
+    display: none;
+  }
 }
 
-@media screen and (min-width=376px) {
-    .mobile_image {
-        display: none;
-    }
+@media screen and (min-width: 376px) {
+  .mobile_image {
+    display: none;
+  }
+  .desktop_image {
+    height: 400px;
+    width: 400px;
+  }
 }
-

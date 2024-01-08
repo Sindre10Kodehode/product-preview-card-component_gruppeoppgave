@@ -7,7 +7,7 @@ import { PerfumeText } from "./components/perfumeText/PerfumeText";
 function App() {
   return (
     <>
-      <section>
+      <section className="whole_thing">
         <PerfumeImage />
         <div className="content_wrapper">
           <PerfumeText />
